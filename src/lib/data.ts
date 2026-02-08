@@ -9,109 +9,109 @@ export type Product = {
 };
 
 export const products: Product[] = [
-    // FÚTBOL
+    // FÚTBOL - Materas
     {
         id: "matera-nacional",
-        name: "Matera Gloriosa - Nacional",
+        name: "Matera Nacional",
         category: "futbol",
         price: 3500,
         description:
-            "Matera de madera tallada con el escudo del Club Nacional de Football. Acabado premium con barniz mate protector.",
-        image: "https://images.unsplash.com/photo-1614264629465-4d6d6e7e7272?auto=format&fit=crop&q=80",
+            "Matera de madera pintada con los colores del Club Nacional de Football. Compartimentos para mate, termo y azúcar.",
+        image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?auto=format&fit=crop&w=800&q=80",
         tags: ["Nacional", "Fútbol", "Madera"],
     },
     {
         id: "matera-penarol",
-        name: "Matera Carbonera - Peñarol",
+        name: "Matera Peñarol",
         category: "futbol",
         price: 3500,
         description:
-            "Orgullo aurinegro plasmado en madera. Pirograbado a mano con detalles en oro y acabado satinado.",
-        image: "https://images.unsplash.com/photo-1518609878373-06d740f60d8b?auto=format&fit=crop&q=80",
+            "Orgullo aurinegro plasmado en madera. Colores amarillo y negro con escudo pintado a mano.",
+        image: "https://images.unsplash.com/photo-1605000797499-95a51c5269ae?auto=format&fit=crop&w=800&q=80",
         tags: ["Peñarol", "Fútbol", "Madera"],
     },
     {
         id: "matera-wanderers",
-        name: "Matera Bohemia - Wanderers",
+        name: "Matera Wanderers",
         category: "futbol",
         price: 3500,
         description:
-            "Homenaje al Club Atlético Wanderers. Tallado tradicional con el escudo bohemio en detalle.",
-        image: "https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&q=80",
+            "Homenaje al Club Atlético Wanderers. Madera noble con los colores bohemios.",
+        image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
         tags: ["Wanderers", "Fútbol", "Madera"],
     },
     {
         id: "matera-defensor",
-        name: "Matera Violeta - Defensor",
+        name: "Matera Defensor",
         category: "futbol",
         price: 3500,
         description:
-            "Para los hinchas del Defensor Sporting. Pirograbado artesanal con detalles violetas.",
-        image: "https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&q=80",
+            "Para los hinchas del Defensor Sporting. Acabado violeta con escudo del club.",
+        image: "https://images.unsplash.com/photo-1513519245088-0e12902e35ca?auto=format&fit=crop&w=800&q=80",
         tags: ["Defensor", "Fútbol", "Madera"],
     },
 
     // PIROGRABADOS
     {
-        id: "pirograbado-leon",
-        name: "Retrato León - Pirograbado",
-        category: "pirograbado",
-        price: 4500,
-        description:
-            "Retrato hiperrealista de un león. 40 horas de trabajo manual sobre madera noble de cedro.",
-        image: "https://images.unsplash.com/photo-1549488497-6c2e36128795?auto=format&fit=crop&q=80",
-        tags: ["Arte", "Fiera", "Decoración"],
-    },
-    {
         id: "pirograbado-caballo",
-        name: "Caballo Criollo - Pirograbado",
+        name: "Caballo Criollo",
         category: "pirograbado",
         price: 5200,
         description:
-            "Homenaje al caballo criollo uruguayo. Detalles milimétricos que capturan la esencia gaucha.",
-        image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&q=80",
+            "Retrato de caballo criollo uruguayo en madera noble. 40+ horas de trabajo artesanal.",
+        image: "https://images.unsplash.com/photo-1534773728080-33d31da27ae5?auto=format&fit=crop&w=800&q=80",
         tags: ["Caballo", "Campo", "Uruguay"],
     },
     {
         id: "pirograbado-mascota",
-        name: "Retrato de Mascota Personalizado",
+        name: "Retrato de Mascota",
         category: "pirograbado",
         price: 4800,
         description:
             "Inmortaliza a tu compañero peludo en madera. Envía una foto y creamos una obra única.",
-        image: "https://images.unsplash.com/photo-1587300003388-59208cc962cb?auto=format&fit=crop&q=80",
+        image: "https://images.unsplash.com/photo-1587300003388-59208cc962cb?auto=format&fit=crop&w=800&q=80",
         tags: ["Mascota", "Personalizado", "Regalo"],
+    },
+    {
+        id: "pirograbado-gaucho",
+        name: "Retrato Gaucho",
+        category: "pirograbado",
+        price: 4500,
+        description:
+            "Homenaje a la tradición gaucha uruguaya. Pirograbado detallado sobre madera de cedro.",
+        image: "https://images.unsplash.com/photo-1609220136736-443140cffec6?auto=format&fit=crop&w=800&q=80",
+        tags: ["Gaucho", "Tradición", "Arte"],
     },
 
     // CUADROS
     {
         id: "cuadro-rambla",
-        name: "Atardecer en la Rambla",
+        name: "Atardecer Rambla",
         category: "cuadros",
         price: 5200,
         description:
             "Pirograbado capturando la esencia de la Rambla de Montevideo al caer el sol. Pieza única.",
-        image: "https://images.unsplash.com/photo-1622547748225-3fc4abd2cca0?auto=format&fit=crop&q=80",
+        image: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=800&q=80",
         tags: ["Montevideo", "Paisaje", "Uruguay"],
     },
     {
         id: "cuadro-campo",
-        name: "Amanecer en el Campo",
+        name: "Amanecer Campo",
         category: "cuadros",
         price: 4800,
         description:
             "La tranquilidad del campo uruguayo capturada en madera. Ideal para decorar espacios amplios.",
-        image: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&q=80",
+        image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=800&q=80",
         tags: ["Campo", "Naturaleza", "Decoración"],
     },
     {
         id: "cuadro-familia",
-        name: "Retrato Familiar Pirograbado",
+        name: "Retrato Familiar",
         category: "cuadros",
         price: 6500,
         description:
-            "Transforma una foto familiar en una obra de arte atemporal. El regalo perfecto para ocasiones especiales.",
-        image: "https://images.unsplash.com/photo-1609220136736-443140cffec6?auto=format&fit=crop&q=80",
+            "Transforma una foto familiar en una obra de arte atemporal. El regalo perfecto.",
+        image: "https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&w=800&q=80",
         tags: ["Familia", "Personalizado", "Regalo"],
     },
 ];
