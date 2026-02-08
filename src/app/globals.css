@@ -1,0 +1,112 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-inter);
+  --font-serif: var(--font-playfair);
+
+  /* New Sage Green Palette based on Sandra's branding */
+  --color-sage: #5D7A5D;
+  --color-sage-light: #E8EDE8;
+  --color-sage-dark: #3D5A3D;
+  --color-terracotta: #B85C38;
+  --color-wood-light: #F5F0E8;
+  --color-wood: #8B5A2B;
+  --color-wood-dark: #3E2723;
+  --color-wood-accent: #D4AF37;
+  --color-cream: #FAF8F5;
+  --color-charcoal: #1A1A1A;
+
+  --animate-scroll-slow: scroll 20s linear infinite;
+
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+}
+
+/* Custom Utilities */
+@utility glass {
+  @apply backdrop-blur-md bg-white/20 border border-white/20 shadow-lg;
+}
+
+@utility glass-dark {
+  @apply backdrop-blur-md bg-black/40 border border-white/10 shadow-xl;
+}
+
+@utility glass-sage {
+  @apply backdrop-blur-md bg-sage/20 border border-sage/30 shadow-lg;
+}
+
+@utility container-padding {
+  @apply px-4 sm:px-6 lg:px-8;
+}
+
+@utility section-bg {
+  @apply bg-cream relative overflow-hidden;
+}
+
+/* Base Styles */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--color-sage-dark);
+  background: var(--color-cream);
+  font-family: var(--font-sans);
+  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%235D7A5D' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Dark Mode Overrides */
+.dark body {
+  color: var(--color-cream);
+  background: var(--color-charcoal);
+  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%235D7A5D' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+/* Line clamp utility */
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Selection */
+::selection {
+  background: var(--color-sage);
+  color: white;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-cream);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-sage);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-sage-dark);
+}
+
+.dark ::-webkit-scrollbar-track {
+  background: var(--color-charcoal);
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: var(--color-terracotta);
+}
