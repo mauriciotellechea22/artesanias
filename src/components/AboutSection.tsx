@@ -18,11 +18,11 @@ export function AboutSection() {
                     viewport={{ once: true, margin: "-100px" }}
                     className="grid lg:grid-cols-2 gap-16 items-center"
                 >
-                    {/* Image */}
+                    {/* Image - Sandra trabajando */}
                     <motion.div variants={itemVariants} className="relative">
-                        <div className="relative w-full aspect-square max-w-md mx-auto rounded-3xl overflow-hidden shadow-2xl">
+                        <div className="relative w-full aspect-[3/4] max-w-md mx-auto rounded-3xl overflow-hidden shadow-2xl">
                             <Image
-                                src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=800&auto=format&fit=crop"
+                                src="/sandra/sandra-pintando.jpg"
                                 alt="Sandra trabajando en su taller"
                                 fill
                                 className="object-cover"
@@ -52,14 +52,14 @@ export function AboutSection() {
                             <span className="text-terracotta">la historia</span>
                         </h2>
                         <p className="text-lg text-sage-dark/80 dark:text-cream/80 leading-relaxed">
-                            Soy Sandra, artesana montevideana con más de 15 años dedicada al arte del pirograbado.
+                            Soy Sandra, artesana de Ciudad de la Costa con más de 15 años dedicada al arte del pirograbado y pintura sobre madera.
                             Cada pieza que creo nace del fuego y la paciencia, transformando madera noble en
                             recuerdos eternos.
                         </p>
                         <p className="text-lg text-sage-dark/80 dark:text-cream/80 leading-relaxed">
-                            Especializada en materas personalizadas, retratos y cuadros, trabajo cada detalle
-                            a mano para que tu idea cobre vida. <strong>No uso máquinas</strong>. Cada trazo
-                            es único, cada pieza es irrepetible.
+                            Especializada en materas personalizadas con escudos de fútbol, retratos y cuadros.
+                            Trabajo cada detalle a mano para que tu idea cobre vida. <strong>No uso máquinas</strong>.
+                            Cada trazo es único, cada pieza es irrepetible.
                         </p>
 
                         <div className="flex flex-wrap gap-4 pt-4">
@@ -67,7 +67,7 @@ export function AboutSection() {
                                 <span className="text-2xl">🧉</span>
                                 <div>
                                     <span className="block font-bold text-sage-dark dark:text-cream">Materas</span>
-                                    <span className="text-sm text-sage-dark/60 dark:text-cream/60">Personalizadas</span>
+                                    <span className="text-sm text-sage-dark/60 dark:text-cream/60">Todos los clubes</span>
                                 </div>
                             </div>
                             <div className="flex items-center gap-3 bg-white/50 dark:bg-white/10 px-4 py-3 rounded-xl">
@@ -78,10 +78,10 @@ export function AboutSection() {
                                 </div>
                             </div>
                             <div className="flex items-center gap-3 bg-white/50 dark:bg-white/10 px-4 py-3 rounded-xl">
-                                <span className="text-2xl">⚽</span>
+                                <span className="text-2xl">🎨</span>
                                 <div>
-                                    <span className="block font-bold text-sage-dark dark:text-cream">Fútbol</span>
-                                    <span className="text-sm text-sage-dark/60 dark:text-cream/60">Todos los clubes</span>
+                                    <span className="block font-bold text-sage-dark dark:text-cream">Pintura</span>
+                                    <span className="text-sm text-sage-dark/60 dark:text-cream/60">Diseños únicos</span>
                                 </div>
                             </div>
                         </div>
