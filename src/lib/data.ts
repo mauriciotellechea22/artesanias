@@ -1,7 +1,7 @@
 export type Product = {
     id: string;
     name: string;
-    category: "futbol" | "pirograbado" | "cuadros";
+    category: "futbol" | "pirograbado" | "madera" | "ceramica";
     price: number;
     description: string;
     image: string;
@@ -9,16 +9,16 @@ export type Product = {
 };
 
 export const products: Product[] = [
-    // FÚTBOL - Materas con fotos reales
+    // FÚTBOL
     {
         id: "matera-nacional",
         name: "Matera Nacional",
         category: "futbol",
         price: 3500,
         description:
-            "Matera con escudo del Club Nacional de Football pirograbado en madera noble. Detalle artesanal único.",
+            "Escudo del Club Nacional de Football pirograbado en madera noble. Detalle artesanal único, protección incluida.",
         image: "/sandra/nacional-escudo.jpg",
-        tags: ["Nacional", "Fútbol", "Pirograbado"],
+        tags: ["Nacional", "Pirograbado", "Matera"],
     },
     {
         id: "matera-penarol",
@@ -28,7 +28,7 @@ export const products: Product[] = [
         description:
             "Matera pintada a mano con la locomotora y escudo de Peñarol. Colores aurinegros vibrantes. ¡Una obra de arte!",
         image: "/sandra/penarol-tren.jpg",
-        tags: ["Peñarol", "Fútbol", "Pintada"],
+        tags: ["Peñarol", "Pintada", "Matera"],
     },
     {
         id: "matera-auf",
@@ -36,9 +36,9 @@ export const products: Product[] = [
         category: "futbol",
         price: 3800,
         description:
-            "Escudo de la AUF (Asociación Uruguaya de Fútbol) con las 4 estrellas. Pirograbado sobre madera de pino.",
+            "Escudo de la AUF con las 4 estrellas pirograbado sobre madera de pino. Orgullo celeste.",
         image: "/sandra/auf-matera.jpg",
-        tags: ["Uruguay", "AUF", "Selección"],
+        tags: ["Uruguay", "AUF", "Pirograbado"],
     },
     {
         id: "matera-danubio",
@@ -46,37 +46,38 @@ export const products: Product[] = [
         category: "futbol",
         price: 3500,
         description:
-            "Matera violeta con el escudo de Danubio Fútbol Club. Pintada a mano con acabado profesional.",
+            "Matera con el escudo de Danubio Fútbol Club. Pintada a mano con acabado profesional.",
         image: "/sandra/sandra-danubio.jpg",
-        tags: ["Danubio", "Fútbol", "Pintada"],
+        tags: ["Danubio", "Pintada", "Matera"],
     },
 
-    // PIROGRABADOS
+    // PIROGRABADO / MADERA
+    {
+        id: "tabla-asado",
+        name: "Tabla para Asado",
+        category: "madera",
+        price: 3200,
+        description:
+            "Tablas de madera personalizadas: cuadradas, redondas, rectangulares o con asa. Pirograbado o pintadas a elección.",
+        image: "/sandra/nacional-matera.jpg",
+        tags: ["Tabla", "Asado", "Personalizada"],
+    },
     {
         id: "pirograbado-personalizado",
         name: "Pirograbado Personalizado",
         category: "pirograbado",
         price: 4800,
         description:
-            "¿Tenés una idea única? La plasmamos en madera. Retratos, mascotas, paisajes o lo que imagines.",
-        image: "/sandra/nacional-matera.jpg",
-        tags: ["Personalizado", "A pedido", "Único"],
-    },
-    {
-        id: "cuadro-retrato",
-        name: "Retrato Familiar",
-        category: "cuadros",
-        price: 6500,
-        description:
-            "Transforma una foto familiar en una obra de arte atemporal. El regalo perfecto para ocasiones especiales.",
+            "¿Tenés una idea única? La plasmamos en madera. Retratos, mascotas, paisajes o lo que imagines. 100% artesanal.",
         image: "/sandra/sandra-pintando.jpg",
-        tags: ["Familia", "Personalizado", "Regalo"],
+        tags: ["Personalizado", "A pedido", "Único"],
     },
 ];
 
 export const CATEGORIES = [
     { id: "all", label: "Todos", icon: "✨" },
     { id: "futbol", label: "Fútbol", icon: "⚽" },
+    { id: "madera", label: "Madera", icon: "🪵" },
     { id: "pirograbado", label: "Pirograbados", icon: "🔥" },
-    { id: "cuadros", label: "Cuadros", icon: "🖼️" },
+    { id: "ceramica", label: "Cerámica", icon: "🏺" },
 ];

@@ -48,7 +48,7 @@ export function ProductCard({ product, className = "", onClick }: ProductCardPro
                 {/* Category Badge */}
                 <div className="absolute top-3 left-3">
                     <span className="px-3 py-1 text-xs font-bold uppercase tracking-wider bg-terracotta text-cream rounded-full shadow-lg">
-                        {product.category === "futbol" ? "⚽ Fútbol" : product.category === "pirograbado" ? "🔥 Pirograbado" : "🖼️ Cuadro"}
+                        {product.category === "futbol" ? "⚽ Fútbol" : product.category === "pirograbado" ? "🔥 Pirograbado" : product.category === "madera" ? "🪵 Madera" : product.category === "ceramica" ? "🏺 Cerámica" : "✨ Otro"}
                     </span>
                 </div>
 

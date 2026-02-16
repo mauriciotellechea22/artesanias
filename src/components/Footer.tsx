@@ -11,15 +11,15 @@ export function Footer() {
                 <div className="grid md:grid-cols-3 gap-12 mb-12">
                     {/* Brand */}
                     <div className="space-y-4">
-                        <div className="flex items-center gap-2">
-                            <span className="text-3xl">🔥</span>
+                        <div className="flex items-center gap-3">
+                            <span className="text-3xl">🎨</span>
                             <div>
-                                <h4 className="font-serif text-2xl font-bold">SANDRA</h4>
-                                <span className="text-cream/60 text-sm tracking-widest">ARTESANÍAS</span>
+                                <span className="text-cream/60 text-xs tracking-[0.25em] uppercase block">Arte y artesanías</span>
+                                <h4 className="font-serif text-2xl font-bold">Sandra</h4>
                             </div>
                         </div>
                         <p className="text-cream/70 leading-relaxed">
-                            Pirograbado, maté y más. Arte hecho a mano con pasión uruguaya desde hace más de 15 años.
+                            Pintura, pirograbado, cerámica, decoración y utilitarios. Hecho a mano en Montevideo / Canelones.
                         </p>
                     </div>
 
@@ -94,7 +94,7 @@ export function Footer() {
                 {/* Bottom Bar */}
                 <div className="border-t border-cream/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
                     <p className="text-cream/40 text-sm">
-                        © {new Date().getFullYear()} Sandra Artesanías. Hecho con 🔥 en Montevideo, Uruguay.
+                        © {new Date().getFullYear()} Arte y artesanías Sandra. Hecho a mano en Montevideo / Canelones.
                     </p>
                     <p className="text-cream/30 text-xs">
                         Todos los productos son artesanales y pueden variar ligeramente.

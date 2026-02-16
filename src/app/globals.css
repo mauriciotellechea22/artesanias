@@ -4,10 +4,10 @@
   --font-sans: var(--font-inter);
   --font-serif: var(--font-playfair);
 
-  /* New Sage Green Palette based on Sandra's branding */
-  --color-sage: #5D7A5D;
-  --color-sage-light: #E8EDE8;
-  --color-sage-dark: #3D5A3D;
+  /* Sandra's branding - verde claro */
+  --color-sage: #7FA97F;
+  --color-sage-light: #EDF5ED;
+  --color-sage-dark: #4A7A4A;
   --color-terracotta: #B85C38;
   --color-wood-light: #F5F0E8;
   --color-wood: #8B5A2B;

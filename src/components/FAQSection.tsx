@@ -6,28 +6,36 @@ import { ChevronDown, HelpCircle } from "lucide-react";
 
 const faqs = [
     {
-        q: "¿Cuánto tiempo demora un pedido personalizado?",
-        a: "Depende de la complejidad del diseño. Una matera simple puede estar lista en 3-5 días. Un retrato detallado puede llevar 2-3 semanas. Siempre te confirmo el plazo antes de empezar.",
+        q: "¿Cuánto tiempo demora un pedido?",
+        a: "De 1 a 10 días dependiendo de la complejidad del producto. Siempre te confirmo el plazo antes de empezar.",
     },
     {
-        q: "¿Hacés envíos a todo Uruguay?",
-        a: "¡Sí! Envío a todo el país por DAC o agencia de tu preferencia. El costo del envío corre por cuenta del cliente. También podés retirar en mi taller en Márquez Castro.",
+        q: "¿Qué productos hacés?",
+        a: "Materas, tablas para asado (cuadradas, redondas, rectangulares, con asa), cuadros con bastidor, cerámica, pirograbado, souvenirs y más. Todo personalizable.",
     },
     {
-        q: "¿Qué necesito para pedir un retrato?",
-        a: "Una foto de buena calidad, bien iluminada y en alta resolución. Cuanto mejor sea la foto, mejor quedará el pirograbado. Te guío en el proceso por WhatsApp.",
+        q: "¿Hacés envíos?",
+        a: "¡Sí! Envíos de cercanía sin costo. Para el resto del país, se coordina por agencia. Consultame por WhatsApp.",
     },
     {
-        q: "¿Puedo pedir un diseño que no esté en el catálogo?",
-        a: "¡Por supuesto! Esa es mi especialidad. Cuéntame tu idea por WhatsApp, hacemos un boceto juntos y una vez que lo apruebes, empiezo a trabajar.",
+        q: "¿Puedo pedir un diseño personalizado?",
+        a: "¡Por supuesto! Esa es mi especialidad. Cuéntame tu idea por WhatsApp, hacemos un boceto juntos y una vez que lo aprobés, empiezo a trabajar.",
     },
     {
-        q: "¿Los productos llevan algún tipo de protección?",
-        a: "Todos mis trabajos llevan varias capas de barniz mate protector, lo que los hace resistentes a la humedad y al uso diario. Están hechos para durar años.",
+        q: "¿Los productos tienen protección?",
+        a: "Sí, dependiendo del producto y su uso tiene su protección particular para garantizar durabilidad.",
     },
     {
         q: "¿Cómo es el pago?",
-        a: "Trabajo con seña del 50% para iniciar el trabajo y el resto contra entrega. Acepto transferencia bancaria, Mercado Pago y efectivo.",
+        a: "Se trabaja con una seña del 30% para iniciar el trabajo y el resto contra entrega. Acepto todos los medios de pago.",
+    },
+    {
+        q: "¿Qué técnicas de pintura usás?",
+        a: "Utilizo diferentes técnicas de pintura según el producto y el resultado buscado. Trabajo en pintura, pirograbado y cerámica.",
+    },
+    {
+        q: "¿Qué tipos de tablas de madera tenés?",
+        a: "Las tablas pueden ser cuadradas, redondas, rectangulares o con asa. Todas personalizables con el diseño que quieras.",
     },
 ];
 
